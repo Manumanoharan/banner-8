@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    position: relative;
+    width: 240px;
+    height: 480px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#bg{
+    position: absolute;
+}
+#nav{
+    position: absolute;
+}
+
+
+#thumb-1{
+    position: absolute;
+    transform: scale(0.7);
+    top: 163px;
+}
+
+#thumb-2{
+    position: absolute;
+    transform: scale(0.7) rotate(0deg);
+    top: 163px;
+
+}
+
+#notification{
+    position: absolute;
+    top: 196px;
+    transform: scale(0);
+
+}
+#ripped{
+    position: absolute;
+}
+#copy-1{
+    position: absolute;
+    top: 74px;
+    transform: scale(0.9);
+}
+#paper{
+    position: absolute;
+    transform: translateX(-240px)
+}
+#wraper{
+    position: absolute;
+    transform: scale(0);
+    top:-30px;
+    transform-origin: bottom;
+
+}
+#top{
+    position: absolute;
+    top: -19px;
+opacity: 0;
+
+}
+#bottom{
+    position: absolute;
+    bottom: -22px;
+    opacity: 0;
+
+}
+#cta{
+    position: absolute;
+    top: 407px;
+    transform: scale(0.8);
+    left: -11px;
+opacity: 0;
+
+}
+#terms{
+    position: absolute;
+    top: 444px;
+    transform: scale(0.8);
+    left: -13px;
+opacity: 0;
+
+}
+#copy-2{
+    position: absolute;
+    left: 28px;
+    top: 50px;
+    transform: scale(1);
+opacity: 0;
+}
+#logo{
+    position: absolute;
+    left: 21px;
+    top: -4px;
+    transform: scale(0.9);
+    opacity: 0;
+}
